@@ -1,9 +1,112 @@
 #social, #search {
-	height: 40px;
 	min-height: 40px;
+	background-color: #260205;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
-#events div {
+#social {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+#social div.networks {
+	padding-left: 5%;
+	padding-top: 2px;
+}
+
+#social div.networks img {
+	padding: 5%;
+}
+
+#social div.form {
+	display: block;
+	float: right;
+}
+
+#social input {
+	background-color: #b30f00;
+	border: none;
+	height: 52px;
+	float: right;
+	padding: 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+#social .email {
+	color: #e9b9b5;
+	padding-left: 5%;
+	width: 80%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+#social ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #e9b9b5;
+}
+#social :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #e9b9b5;
+   opacity:  1;
+}
+#social ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #e9b9b5;
+   opacity:  1;
+}
+#social :-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #e9b9b5;
+}
+
+#social .subscribe {
+	width: 10%;
+	margin-right: 5%;
+	background-image: url('../images/subscribe.png');
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	text-indent: -200px;
+}
+
+#header {
+	background-image: url('../images/whisky-background.png');
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+#header h1 {
+	width: 30%;
+}
+
+#header #carousel {
+	width: 70%;
+}
+
+#header h1 a {
+	background-image: url('../images/nycwhisky.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-indent: -999px;
+	width: 100%;
+	height: 237px;
+	display: block;
+	margin: 10px;
+}
+
+#header #instagram {
+	background-color: #260205;
+	width: 100%;
+}
+
+#events {
+	background-color: #fff;
+}
+
+#events div, #header div, #social div {
 	min-height: 0;
 	min-width: 0;
 }
@@ -23,7 +126,7 @@
 	width: 60%;
 }
 
-#events h3, #events h4 {
+#events h3, #events h4, #header h1, #header h2, #header h3  {
 	margin: 0;
 }
 

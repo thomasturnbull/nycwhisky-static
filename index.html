@@ -10,20 +10,54 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <style></style>
 <title>Responsive Web Design Pattern: Mostly Fluid</title>
 <body>
 <div class="container" role="main">
   <div class="c1" id="social">
-    <span>Twitter</span>
-    <span>Instagram</span>
-    <span>Facebook</span>
-    <input type="text" />
+    <div class="networks">
+      <span><a href="http://twitter.com/nycwhisky">
+        <img src="images/twitter-top.png" width="30px" height="23px" title="Follow @NYCWhisky on Twitter" />
+      </a></span>
+      <span><a href="https://instagram.com/nycwhisky/">
+        <img src="images/instagram-top.png" width="26px" height="26px" title="Follow @NYCWhisky on Instagram" />
+      </a></span>
+      <span><a href="https://www.facebook.com/nycwhisky">
+        <img src="images/facebook-top.png" width="13px" height="26px" title="Like NYCWhisky on Facebook" />
+      </a></span>
+    </div>
+    <div class="form">
+     <form>
+       <input class="subscribe" type="submit" value="subscribe">
+       <input class="email" type="email" name="email" placeholder="SUBSCRIBE" />
+     </form>
+    </div>
   </div>
+
   <div class="c2" id="search">
-    <input type="text" /> 
+    <!-- TODO(Thomas): Search -->
   </div>
-  <div class="c3" id="header"></div>
+
+  <div class="c3" id="header">
+    <h1><a href="http://nycwhisky.com">NYCWhisky</a></h1>
+    <div id="carousel">
+      <div class="prev"><</div>
+      <div class="carousel-content">
+        <img width="100%" />
+        <h2>Wathen's Bourbon &amp; Bomberger's Whiskey</h2>
+        <h3>Oak &amp; Steel</h3>
+        <span>5:00pm</span>
+      </div>
+      <div class="next">></div>
+    </div>
+    <div id="instagram">
+      <h2>FOLLOW US ON INSTAGRAM</h2>
+      <!-- INSTANSIVE WIDGET --><script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/08438a053d35b1bcceb98c61a25762a50654ab4e.html" id="instansive_08438a053d" name="instansive_08438a053d"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+    </div>
+  </div>
+
+
   <div class="c4" id="events">
 
     <div class="event" vocab="http://schema.org/" typeof="Event">
@@ -117,11 +151,7 @@
     </div>
 
   </div>
-  <div class="c5" id="instagram">
-    <h2>FOLLOW US ON INSTAGRAM</h2>
-    <!-- INSTANSIVE WIDGET --><script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/08438a053d35b1bcceb98c61a25762a50654ab4e.html" id="instansive_08438a053d" name="instansive_08438a053d"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 
-  </div>
   <div class="c6" id="submitevent">
     <h2>SUBMIT AN EVENT</h2>
     <p>Are you arranging a tasting or whisky event in NYC? Use this form to let us know. All fields are required.</p>
