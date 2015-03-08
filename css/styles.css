@@ -1,0 +1,40 @@
+#social, #search {
+	height: 40px;
+	min-height: 40px;
+}
+
+#events div {
+	min-height: 0;
+	min-width: 0;
+}
+
+#events .event {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+#events .date {
+	width: 20%;
+}
+
+#events .description {
+	width: 60%;
+}
+
+#events h3, #events h4 {
+	margin: 0;
+}
+
+#events .social {
+	width: 20%;
+}
+
+#footer {
+	padding: 20px;
+}
+
+#copyright {
+	float: right;
+}
