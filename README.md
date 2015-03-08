@@ -1,0 +1,1 @@
+# nycwhisky-static
