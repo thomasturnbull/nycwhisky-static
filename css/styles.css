@@ -81,6 +81,7 @@ body {
 
 #header {
 	background-image: url('../images/whisky-background.png');
+	background-color: #C02D2C;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-flow: row wrap;
@@ -320,6 +321,7 @@ body {
 	color: #fff;
 	padding: 20px 0;
 	background-image: url('../images/whisky-background.png');
+	background-color: #C02D2C;
 }
 
 #footer-navigation {
