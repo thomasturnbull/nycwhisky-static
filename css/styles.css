@@ -192,7 +192,7 @@ body {
 	padding-bottom: 20px; 
 }
 
-#events div, #header div, #social div {
+#events div, #header div, #social div, #submiteventwrapper div {
 	min-height: 0;
 	min-width: 0;
 }
@@ -304,6 +304,10 @@ body {
 }
 
 #submiteventwrapper {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap; 
 	width: 90%;
 	margin: 0 auto 20px;
 }
@@ -312,6 +316,37 @@ body {
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	color: #59070e;
+}
+
+#submitevent p {
+	width: 100%;
+}
+
+#submitevent label {
+	width: 90%;
+	display: block;
+}
+
+#submitevent input, #submitevent textarea, #submitevent select, #submitevent option {
+	width: 90%;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+}
+
+#submitevent div.small input {
+	width: 80%;
+}
+
+#submitevent .submit button {
+	background-color: #b30f00;
+	font-size: 1.2em;
+	height: 52px;
+	color: #e9b9b5;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	width: 30%;
+	margin: 10px auto;
+	border: none;
 }
 
 #footer {

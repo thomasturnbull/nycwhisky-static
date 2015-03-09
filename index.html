@@ -163,24 +163,38 @@
     <div id="submiteventwrapper">
       <h2>SUBMIT AN EVENT</h2>
       <p>Are you arranging a tasting or whisky event in NYC? Use this form to let us know. All fields are required.</p>
-      Event Name
-      <input type="text" />
-      Event Location
-      <select>
-        <option>Astor Wine</option>
-        <option>BottleRocket</option>
-      </select>
-      Date
-      <input type="text" />
-      Time
-      <input type="text" />
-      Description
-      <textarea></textarea>
-      Contact
-      <input type="text" />
-      Image
-      I agree to the <a href="#">terms and conditions</a>
-      <button>SUBMIT</button>
+      <div class="name">
+        <label>Event Name</label>
+        <input type="text" />
+      </div>
+      <div class="location">
+        <label>Event Location</label>
+        <select>
+          <option>Astor Wine</option>
+          <option>BottleRocket</option>
+        </select>
+      </div>
+      <div class="date small">
+        <label>Date</label>
+        <input type="date" step=7 min=2015-03-08>
+      </div> 
+      <div class="time small">
+        <label>Time</label>
+        <input type="time" step=900>
+      </div>
+      <div class="contact">
+        <label>Contact</label>
+        <input type="text" />
+      </div>
+      <div class="description">
+        <label>Description</label>
+        <textarea></textarea>
+      </div>
+      <!-- TODO(Thomas): Some missing fields here. -->
+      <div class="submit">
+        I agree to the <a href="#">terms and conditions</a>
+        <button>SUBMIT</button>
+      </div>
     </div>
   </div>
   <div class="c7" id="footer">

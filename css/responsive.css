@@ -18,6 +18,14 @@
   width: 100%;
 }
 
+#submiteventwrapper div {
+  width: 100%;
+}
+
+#submiteventwrapper div.small {
+  width: 50%;
+}
+
 @media (min-width: 500px) {
   .c1 .networks {
     width: 30%;
@@ -48,6 +56,12 @@
   }
   .c2 {
     display: block;
+  }
+  #submiteventwrapper div {
+    width: 50%;
+  }
+  #submiteventwrapper div.small {
+    width: 25%;
   }
 }
 
