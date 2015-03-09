@@ -145,6 +145,36 @@
 #header #instagram {
 	background-color: #260205;
 	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#header #instagram h2 {
+	background-color: #b30f00;
+	font-size: 1.2em;
+	height: 52px;
+	color: #e9b9b5;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	width: 80%;
+	margin: 10px auto;
+	padding: 0 5% 0px 5%;
+	line-height: 53px;
+	background-image: url('../images/instagram-bottom.png');
+	background-repeat: no-repeat;
+	background-position: 90% 50%;
+}
+
+#header #instagram h2 a {
+	color: #e9b9b5;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+
+#widget {
+	width: 90%;
+	margin: 0 auto;
 }
 
 #events {
