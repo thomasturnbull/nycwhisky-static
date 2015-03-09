@@ -5,8 +5,13 @@
   flex-flow: row wrap;
 }
 
-.c1, .c2, .c3, .c4, .c5, .c6, .c7 {
+.c1, .c3, .c4, .c5, .c6, .c7 {
   width: 100%;
+}
+
+.c2 {
+  width: 0;
+  display: none;
 }
 
 .c1 .networks, .c1 .form {
@@ -15,18 +20,18 @@
 
 @media (min-width: 500px) {
   .c1 .networks {
-    width: 40%;
+    width: 30%;
   }
   .c1 .form {
-    width: 60%;
+    width: 70%;
   }
 }
 
 @media (min-width: 600px) {
-  .c1, .c2, .c3, .c4, .c5, .c6 {
+  .c2, .c3, .c4, .c5, .c6 {
     width: 50%;
   }
-  .c6, .c7 {
+  .c1, .c6, .c7 {
     width: 100%;
   }
 }
@@ -40,6 +45,9 @@
   }
   .c7, .c7 {
     width: 100%;
+  }
+  .c2 {
+    display: block;
   }
 }
 
