@@ -1,3 +1,7 @@
+body {
+	background-color: #ccc;
+}
+
 #social, #search {
 	min-height: 40px;
 	background-color: #260205;
