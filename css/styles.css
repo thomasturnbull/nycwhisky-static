@@ -374,13 +374,17 @@ body {
 	margin-right: 5%;
 }
 
-h3, h3 a, h3 a, h3 a:visited {
+h3, h3 a, h3 a, h3 a:visited, a:link {
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 	color: #c83232;
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 1em;
+}
+
+h3 a:hover {
+	color: #A81212;
 }
 
 h4 {
