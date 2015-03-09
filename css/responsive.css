@@ -45,7 +45,7 @@
 
 @media (min-width: 800px) {
   .container {
-    width: 1018px;
+    max-width: 1018px;
     margin-left: auto;
     margin-right: auto;
   }
